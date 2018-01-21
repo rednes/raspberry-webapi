@@ -23,7 +23,10 @@ $ python3 index.py
 ### Call API
 
 ```
+# 赤LEDがチカる
 $ curl http://localhost:8080/api/1
+# 黄LEDがチカる
 $ curl http://localhost:8080/api/2
+# 緑LEDがチカる
 $ curl http://localhost:8080/api/3
 ```
